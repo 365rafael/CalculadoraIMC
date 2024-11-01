@@ -1,0 +1,12 @@
+
+    body {
+      background-color: #2d0a48; /* Cor de fundo roxa */
+      color: white;
+    }
+    .container {
+      max-width: 500px;
+      margin-top: 50px;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #a262cf; /* Um roxo mais escuro para o card */
+    }

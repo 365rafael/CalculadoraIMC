@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de IMC</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <div class="container text-center">
+    <h1>Calculadora de IMC</h1>
+    <form id="imcForm">
+      <div class="form-group">
+        <label for="peso">Peso (kg)</label>
+        <input type="number" class="form-control" id="peso" placeholder="Digite seu peso em kg" required step="0.1" min="1">
+      </div>
+      <div class="form-group">
+        <label for="altura">Altura (m)</label>
+        <input type="number" class="form-control" id="altura" placeholder="Digite sua altura em metros" required step="0.01" min="0.1">
+      </div>
+      <button type="button" class="btn btn-primary btn-block" onclick="calcularIMC()">Calcular IMC</button>
+    </form>
+    <div id="resultado" class="mt-4"></div>
+  </div>
+
+  <div class="text-center mt-4">
+    <p>
+      <a href="https://ananutriuber.my.canva.site/" target="_blank" style="color: white; text-decoration: none;">
+        Ana Carolina - Nutricionista
+      </a>
+    </p>
+  </div>
+  <div class="text-center mt-2">
+    <p>
+      <a href="https://bit.ly/RafaelArantes" target="_blank" style="color: white; text-decoration: none;">
+        Desenvolvido por Rafael Arantes
+      </a>
+    </p>
+  </div>
+  
+<script src="script.js"></script>
+ 
+</body>
+</html>
