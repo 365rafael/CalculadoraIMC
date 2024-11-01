@@ -39,5 +39,6 @@ function calcularIMC() {
       <p>Classificação: <strong>${classificacao}</strong></p>
       <p>Faixa de peso ideal para sua altura: <strong>${faixaPesoMin} kg - ${faixaPesoMax} kg</strong></p>
     `;
+    
   }
   
